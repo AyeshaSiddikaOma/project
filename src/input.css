@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @theme{
       --color-primary:#734BDF;
+  --font-onest:"Onest", sans-serif;
 
 }
 
@@ -8,5 +9,5 @@
   @apply max-w-[1170px] mx-auto;
 }
 @utility commonBtn{
-    @apply px-3.75 py-3.75 bg-primary rounded-full
+    @apply px-3.75 py-3.75 bg-primary rounded-full font-onest text-white font-bold text-[16px]
 }
