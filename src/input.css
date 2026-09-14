@@ -1,1 +1,12 @@
 @import "tailwindcss";
+@theme{
+      --color-primary:#734BDF;
+
+}
+
+@utility container {
+  @apply max-w-[1170px] mx-auto;
+}
+@utility commonBtn{
+    @apply px-3.75 py-3.75 bg-primary rounded-full
+}
