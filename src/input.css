@@ -12,6 +12,9 @@
 @utility commonBtn{
     @apply px-3.75 py-3.75 bg-primary rounded-full font-onest text-white font-bold text-[16px]
 }
+@utility body{
+    @apply font-onest
+}
 .oma{
     background:url(../images/Background.png);
     background-repeat:no-repeat;
