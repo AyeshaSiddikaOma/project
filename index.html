@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" >
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,83 +27,150 @@
     <link rel="stylesheet" href="src/input.css" />
     <!-- All CSS Link End -->
   </head>
-  <body  >
+  <body>
     <!-- Hero Part Start -->
     <section class="oma">
       <div class="container">
         <!-- Header Part Start -->
-        <!-- <div class="container">
-          <div class="flex justify-between items-center">
-            <img src="images/logo.png" alt="logo.png" />
 
-            <ul class="flex gap-5 text-[16px ] font-bold font-onest text-white">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Schedule</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Pages</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-
-            <a href="" class="commonBtn">Join the Conference</a>
-          </div>
-        </div> -->
-
-<nav class="bg-neutral-primary bg-black/70 fixed w-full z-20 top-0 start-0 border-default">
-  <div class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4">
-    <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-            <img src="images/logo.png" alt="logo.png" />
-    </a>
-    <button data-collapse-toggle="navbar-dropdown" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary" aria-controls="navbar-dropdown" aria-expanded="false">
-        <span class="sr-only">Open main menu</span>
-        <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/></svg>
-    </button>
-    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
-      <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary">
-        <li>
-          <a href="#" class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0" aria-current="page">Home</a>
-        </li>
-        <li>
-            <button id="dropdownNvbarButton" data-dropdown-toggle="dropdownNavbar" class="flex text-white items-center justify-between w-full py-2 px-3 rounded font-medium text-heading md:w-auto hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0">
-              Dropdown 
-              <svg class="w-4 h-4 ms-1.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 9-7 7-7-7"/></svg>
-          </button>
-          <!-- Dropdown menu -->
-          <div id="dropdownNavbar" class="z-10 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44">
-              <ul class="p-2 text-sm text-body font-medium" aria-labelledby="dropdownNvbarButton">
+        <nav
+          class="bg-neutral-primary bg-black/70 fixed w-full z-20 top-0 inset-s-0 border-default"
+        >
+          <div
+            class="max-w-7xl flex flex-wrap items-center justify-between mx-auto p-4"
+          >
+            <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="images/logo.png" alt="logo.png" />
+            </a>
+            <button
+              data-collapse-toggle="navbar-dropdown"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
+              aria-controls="navbar-dropdown"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-6 h-6"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-width="2"
+                  d="M5 7h14M5 12h14M5 17h14"
+                />
+              </svg>
+            </button>
+            <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
+              <ul
+                class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-default rounded-base bg-neutral-secondary-soft md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-neutral-primary"
+              >
                 <li>
-                  <a href="#" class="      text-white       inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Dashboard</a>
+                  <a
+                    href="#"
+                    class="block py-2 px-3 text-white bg-brand rounded md:bg-transparent md:text-fg-brand md:p-0"
+                    aria-current="page"
+                    >Home</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="      text-white     inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Settings</a>
+                  <button
+                    id="dropdownNvbarButton"
+                    data-dropdown-toggle="dropdownNavbar"
+                    class="flex text-white items-center justify-between w-full py-2 px-3 rounded font-medium text-heading md:w-auto hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0"
+                  >
+                    Dropdown
+                    <svg
+                      class="w-4 h-4 ms-1.5"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m19 9-7 7-7-7"
+                      />
+                    </svg>
+                  </button>
+                  <!-- Dropdown menu -->
+                  <div
+                    id="dropdownNavbar"
+                    class="z-10 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44"
+                  >
+                    <ul
+                      class="p-2 text-sm text-body font-medium bg-amber-50"
+                      aria-labelledby="dropdownNvbarButton"
+                    >
+                      <li>
+                        <a
+                          href="#"
+                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                          >Dashboard</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                          >Settings</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                          >Earnings</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="#"
+                          class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                          >Sign out</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li>
-                  <a href="#" class="      text-white     inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Earnings</a>
+                  <a
+                    href="#"
+                    class="text-white block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                    >Services</a
+                  >
                 </li>
                 <li>
-                  <a href="#" class="      text-white     inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded">Sign out</a>
+                  <a
+                    href="#"
+                    class="text-white block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                    >Pricing</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="text-white block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent"
+                    >Contact</a
+                  >
                 </li>
               </ul>
+            </div>
+            <a href="" class="commonBtn">Join the Conference</a>
           </div>
-        </li>
-        <li>
-          <a href="#" class="      text-white     block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Services</a>
-        </li>
-        <li>
-          <a href="#" class="      text-white     block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Pricing</a>
-        </li>
-        <li>
-          <a href="#" class="      text-white     block py-2 px-3 text-heading rounded hover:bg-neutral-tertiary md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">Contact</a>
-        </li>
-      </ul>
-    </div>
-                <a href="" class="commonBtn">Join the Conference</a>
+        </nav>
 
-  </div>
-</nav>
-
-
-        
         <!-- Header Part End -->
         <!-- Banner Part Start -->
         <div class="container py-25">
@@ -183,7 +250,7 @@
 
     <!-- About Part Start -->
     <div class="container">
-      <div class="grid  lg:grid-cols-2 grid-cols-1  py-20">
+      <div class="grid lg:grid-cols-2 grid-cols-1 py-20">
         <div class="">
           <img class="w-full" src="images/Group 7.png" alt="" />
         </div>
@@ -601,7 +668,7 @@
               professionals.
             </p>
           </div>
-                  <!-- ==== -->
+          <!-- ==== -->
 
           <div class="flex items-center justify-between">
             <img src="images/Border.png" alt="" />
@@ -629,7 +696,7 @@
               professionals.
             </p>
           </div>
-                  <!-- ==== -->
+          <!-- ==== -->
 
           <div class="flex items-center justify-between">
             <img src="images/Border.png" alt="" />
@@ -697,65 +764,138 @@
     <!-- Schedule Part End -->
 
     <!-- Price Part Start -->
-     <div class="max-w-6xl mx-auto text-center mb-14">
-  <p class="text-purple-600 font-semibold text-sm mb-3 flex items-center justify-center gap-2">
-    <span class="inline-block w-4 h-px bg-purple-400"></span>
-    Pricing Plan
-    <span class="inline-block w-4 h-px bg-purple-400"></span>
-  </p>
-  <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight">
-    Discover our flexible pricing plans<br class="hidden md:block"> for attendees
-  </h1>
-</div>
+    <div class="max-w-6xl mx-auto text-center mb-14">
+      <p
+        class="text-purple-600 font-semibold text-sm mb-3 flex items-center justify-center gap-2"
+      >
+        <span class="inline-block w-4 h-px bg-purple-400"></span>
+        Pricing Plan
+        <span class="inline-block w-4 h-px bg-purple-400"></span>
+      </p>
+      <h1
+        class="text-3xl md:text-4xl font-extrabold text-slate-900 leading-tight"
+      >
+        Discover our flexible pricing plans<br class="hidden md:block" />
+        for attendees
+      </h1>
+    </div>
 
-<div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+      <!-- Basic Package -->
+      <div
+        class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 flex flex-col"
+      >
+        <div class="flex items-center gap-3 mb-6">
+          <div
+            class="w-11 h-11 rounded-xl bg-purple-100 flex items-center justify-center"
+          >
+            <svg
+              class="w-5 h-5 text-purple-600"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+              />
+            </svg>
+          </div>
+          <div>
+            <h3 class="font-bold text-slate-900">Basic Package</h3>
+            <p class="text-xs text-slate-400">Perfect for first-time attend</p>
+          </div>
+        </div>
 
-  <!-- Basic Package -->
-  <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 flex flex-col">
-    <div class="flex items-center gap-3 mb-6">
-      <div class="w-11 h-11 rounded-xl bg-purple-100 flex items-center justify-center">
-        <svg class="w-5 h-5 text-purple-600" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        <div class="mb-6">
+          <span class="text-4xl font-extrabold text-slate-900">$49</span>
+          <span class="text-slate-400 text-sm">/One-Time</span>
+        </div>
+
+        <div class="border-t border-slate-100 pt-5 mb-5">
+          <p class="text-sm font-semibold text-slate-900 mb-3">
+            What's Included:
+          </p>
+          <p class="text-xs text-slate-400 mb-4">
+            It could relate to a subscription
+          </p>
+          <ul class="space-y-3 text-sm text-slate-600">
+            <li class="flex items-center gap-2">
+              <svg
+                class="w-4 h-4 text-purple-500 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              Entry to all standard sessions
+            </li>
+            <li class="flex items-center gap-2">
+              <svg
+                class="w-4 h-4 text-purple-500 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              Reserved seating in select session
+            </li>
+            <li class="flex items-center gap-2">
+              <svg
+                class="w-4 h-4 text-purple-500 shrink-0"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M5 13l4 4L19 7"
+                />
+              </svg>
+              Meet & greet with speakers
+            </li>
+          </ul>
+        </div>
+
+        <button
+          class="mt-auto w-full bg-primary hover:bg-primary transition text-white font-semibold text-sm py-3 rounded-lg"
+        >
+          Get Standard Pass
+        </button>
       </div>
-      <div>
-        <h3 class="font-bold text-slate-900">Basic Package</h3>
-        <p class="text-xs text-slate-400">Perfect for first-time attend</p>
-      </div>
     </div>
-
-    <div class="mb-6">
-      <span class="text-4xl font-extrabold text-slate-900">$49</span>
-      <span class="text-slate-400 text-sm">/One-Time</span>
-    </div>
-
-    <div class="border-t border-slate-100 pt-5 mb-5">
-      <p class="text-sm font-semibold text-slate-900 mb-3">What's Included:</p>
-      <p class="text-xs text-slate-400 mb-4">It could relate to a subscription</p>
-      <ul class="space-y-3 text-sm text-slate-600">
-        <li class="flex items-center gap-2">
-          <svg class="w-4 h-4 text-purple-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-          Entry to all standard sessions
-        </li>
-        <li class="flex items-center gap-2">
-          <svg class="w-4 h-4 text-purple-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-          Reserved seating in select session
-        </li>
-        <li class="flex items-center gap-2">
-          <svg class="w-4 h-4 text-purple-500 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
-          Meet & greet with speakers
-        </li>
-      </ul>
-    </div>
-
-    <button class="mt-auto w-full bg-primary hover:bg-primary transition text-white font-semibold text-sm py-3 rounded-lg">
-      Get Standard Pass
-    </button>
-  </div>
-
-</div>
     <!-- Price Part End -->
 
-    <!-- Feature Part Start -->
-    <!-- Feature Part End -->
+    <!-- Video Part Start -->
+    <section class="ooo mt-30">
+      <div class="container py-100">
+        <a id="play-video" class="video-play-button" href="#">
+  <span></span>
+</a>
+
+
+<div id="video-overlay" class="video-overlay">
+  <a class="video-overlay-close">&times;</a>
+</div>
+      </div>
+    </section>
+    <!-- Video Part End -->
 
     <!-- Feature Part Start -->
     <!-- Feature Part End -->
@@ -768,7 +908,7 @@
 
     <!-- Feature Part Start -->
     <!-- Feature Part End -->
-     <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
-
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
