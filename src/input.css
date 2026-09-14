@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @theme{
       --color-primary:#734BDF;
+      --color-grey:#F6F6F7;
   --font-onest:"Onest", sans-serif;
 
 }
